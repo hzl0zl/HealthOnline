@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478A044B1D4B7542007AAD57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A044A1D4B7542007AAD57 /* main.m */; };
+		478A044E1D4B7542007AAD57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A044D1D4B7542007AAD57 /* AppDelegate.m */; };
+		478A04511D4B7542007AAD57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A04501D4B7542007AAD57 /* ViewController.m */; };
+		478A04541D4B7542007AAD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478A04521D4B7542007AAD57 /* Main.storyboard */; };
+		478A04561D4B7542007AAD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478A04551D4B7542007AAD57 /* Assets.xcassets */; };
+		478A04591D4B7542007AAD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478A04571D4B7542007AAD57 /* LaunchScreen.storyboard */; };
+		478A04641D4B7543007AAD57 /* com_health_onlieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A04631D4B7543007AAD57 /* com_health_onlieTests.m */; };
+		478A046F1D4B7543007AAD57 /* com_health_onlieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478A046E1D4B7543007AAD57 /* com_health_onlieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478A04601D4B7543007AAD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478A043E1D4B7542007AAD57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478A04451D4B7542007AAD57;
+			remoteInfo = com.health.onlie;
+		};
+		478A046B1D4B7543007AAD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478A043E1D4B7542007AAD57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478A04451D4B7542007AAD57;
+			remoteInfo = com.health.onlie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		478A04461D4B7542007AAD57 /* com.health.onlie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.health.onlie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478A044A1D4B7542007AAD57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		478A044C1D4B7542007AAD57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		478A044D1D4B7542007AAD57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		478A044F1D4B7542007AAD57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		478A04501D4B7542007AAD57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		478A04531D4B7542007AAD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478A04551D4B7542007AAD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478A04581D4B7542007AAD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478A045A1D4B7542007AAD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478A045F1D4B7543007AAD57 /* com.health.onlieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.health.onlieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478A04631D4B7543007AAD57 /* com_health_onlieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_health_onlieTests.m; sourceTree = "<group>"; };
+		478A04651D4B7543007AAD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478A046A1D4B7543007AAD57 /* com.health.onlieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.health.onlieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478A046E1D4B7543007AAD57 /* com_health_onlieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_health_onlieUITests.m; sourceTree = "<group>"; };
+		478A04701D4B7543007AAD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478A04431D4B7542007AAD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A045C1D4B7543007AAD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A04671D4B7543007AAD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478A043D1D4B7542007AAD57 = {
+			isa = PBXGroup;
+			children = (
+				478A04481D4B7542007AAD57 /* com.health.onlie */,
+				478A04621D4B7543007AAD57 /* com.health.onlieTests */,
+				478A046D1D4B7543007AAD57 /* com.health.onlieUITests */,
+				478A04471D4B7542007AAD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478A04471D4B7542007AAD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478A04461D4B7542007AAD57 /* com.health.onlie.app */,
+				478A045F1D4B7543007AAD57 /* com.health.onlieTests.xctest */,
+				478A046A1D4B7543007AAD57 /* com.health.onlieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478A04481D4B7542007AAD57 /* com.health.onlie */ = {
+			isa = PBXGroup;
+			children = (
+				478A044C1D4B7542007AAD57 /* AppDelegate.h */,
+				478A044D1D4B7542007AAD57 /* AppDelegate.m */,
+				478A044F1D4B7542007AAD57 /* ViewController.h */,
+				478A04501D4B7542007AAD57 /* ViewController.m */,
+				478A04521D4B7542007AAD57 /* Main.storyboard */,
+				478A04551D4B7542007AAD57 /* Assets.xcassets */,
+				478A04571D4B7542007AAD57 /* LaunchScreen.storyboard */,
+				478A045A1D4B7542007AAD57 /* Info.plist */,
+				478A04491D4B7542007AAD57 /* Supporting Files */,
+			);
+			path = com.health.onlie;
+			sourceTree = "<group>";
+		};
+		478A04491D4B7542007AAD57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				478A044A1D4B7542007AAD57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		478A04621D4B7543007AAD57 /* com.health.onlieTests */ = {
+			isa = PBXGroup;
+			children = (
+				478A04631D4B7543007AAD57 /* com_health_onlieTests.m */,
+				478A04651D4B7543007AAD57 /* Info.plist */,
+			);
+			path = com.health.onlieTests;
+			sourceTree = "<group>";
+		};
+		478A046D1D4B7543007AAD57 /* com.health.onlieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478A046E1D4B7543007AAD57 /* com_health_onlieUITests.m */,
+				478A04701D4B7543007AAD57 /* Info.plist */,
+			);
+			path = com.health.onlieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478A04451D4B7542007AAD57 /* com.health.onlie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478A04731D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlie" */;
+			buildPhases = (
+				478A04421D4B7542007AAD57 /* Sources */,
+				478A04431D4B7542007AAD57 /* Frameworks */,
+				478A04441D4B7542007AAD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.health.onlie;
+			productName = com.health.onlie;
+			productReference = 478A04461D4B7542007AAD57 /* com.health.onlie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478A045E1D4B7543007AAD57 /* com.health.onlieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478A04761D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlieTests" */;
+			buildPhases = (
+				478A045B1D4B7543007AAD57 /* Sources */,
+				478A045C1D4B7543007AAD57 /* Frameworks */,
+				478A045D1D4B7543007AAD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478A04611D4B7543007AAD57 /* PBXTargetDependency */,
+			);
+			name = com.health.onlieTests;
+			productName = com.health.onlieTests;
+			productReference = 478A045F1D4B7543007AAD57 /* com.health.onlieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478A04691D4B7543007AAD57 /* com.health.onlieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478A04791D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlieUITests" */;
+			buildPhases = (
+				478A04661D4B7543007AAD57 /* Sources */,
+				478A04671D4B7543007AAD57 /* Frameworks */,
+				478A04681D4B7543007AAD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478A046C1D4B7543007AAD57 /* PBXTargetDependency */,
+			);
+			name = com.health.onlieUITests;
+			productName = com.health.onlieUITests;
+			productReference = 478A046A1D4B7543007AAD57 /* com.health.onlieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478A043E1D4B7542007AAD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = huangzhiling;
+				TargetAttributes = {
+					478A04451D4B7542007AAD57 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8R5389SW7Y;
+					};
+					478A045E1D4B7543007AAD57 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8R5389SW7Y;
+						TestTargetID = 478A04451D4B7542007AAD57;
+					};
+					478A04691D4B7543007AAD57 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8R5389SW7Y;
+						TestTargetID = 478A04451D4B7542007AAD57;
+					};
+				};
+			};
+			buildConfigurationList = 478A04411D4B7542007AAD57 /* Build configuration list for PBXProject "com.health.onlie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478A043D1D4B7542007AAD57;
+			productRefGroup = 478A04471D4B7542007AAD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478A04451D4B7542007AAD57 /* com.health.onlie */,
+				478A045E1D4B7543007AAD57 /* com.health.onlieTests */,
+				478A04691D4B7543007AAD57 /* com.health.onlieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478A04441D4B7542007AAD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478A04591D4B7542007AAD57 /* LaunchScreen.storyboard in Resources */,
+				478A04561D4B7542007AAD57 /* Assets.xcassets in Resources */,
+				478A04541D4B7542007AAD57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A045D1D4B7543007AAD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A04681D4B7543007AAD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478A04421D4B7542007AAD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478A04511D4B7542007AAD57 /* ViewController.m in Sources */,
+				478A044E1D4B7542007AAD57 /* AppDelegate.m in Sources */,
+				478A044B1D4B7542007AAD57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A045B1D4B7543007AAD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478A04641D4B7543007AAD57 /* com_health_onlieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478A04661D4B7543007AAD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478A046F1D4B7543007AAD57 /* com_health_onlieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478A04611D4B7543007AAD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478A04451D4B7542007AAD57 /* com.health.onlie */;
+			targetProxy = 478A04601D4B7543007AAD57 /* PBXContainerItemProxy */;
+		};
+		478A046C1D4B7543007AAD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478A04451D4B7542007AAD57 /* com.health.onlie */;
+			targetProxy = 478A046B1D4B7543007AAD57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478A04521D4B7542007AAD57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478A04531D4B7542007AAD57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478A04571D4B7542007AAD57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478A04581D4B7542007AAD57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478A04711D4B7543007AAD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478A04721D4B7543007AAD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478A04741D4B7543007AAD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = com.health.onlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		478A04751D4B7543007AAD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = com.health.onlie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		478A04771D4B7543007AAD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.health.onlieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.health.onlie.app/com.health.onlie";
+			};
+			name = Debug;
+		};
+		478A04781D4B7543007AAD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.health.onlieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.health.onlie.app/com.health.onlie";
+			};
+			name = Release;
+		};
+		478A047A1D4B7543007AAD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.health.onlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.health.onlie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		478A047B1D4B7543007AAD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.health.onlieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.com-health-onlieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.health.onlie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478A04411D4B7542007AAD57 /* Build configuration list for PBXProject "com.health.onlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478A04711D4B7543007AAD57 /* Debug */,
+				478A04721D4B7543007AAD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478A04731D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478A04741D4B7543007AAD57 /* Debug */,
+				478A04751D4B7543007AAD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		478A04761D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478A04771D4B7543007AAD57 /* Debug */,
+				478A04781D4B7543007AAD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		478A04791D4B7543007AAD57 /* Build configuration list for PBXNativeTarget "com.health.onlieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478A047A1D4B7543007AAD57 /* Debug */,
+				478A047B1D4B7543007AAD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478A043E1D4B7542007AAD57 /* Project object */;
+}
